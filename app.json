@@ -1,0 +1,14 @@
+{
+  "name": "Ghee Sample Bot",
+  "description": "A sample Slack Bot using ghee",
+  "repository": "https://github.com/elliottcarlson/ghee-sample-bot",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "slack", "bot"],
+  "env": {
+    "SLACK_API_TOKEN": "Enter your Slack API Token for your new bot here."
+  },
+  "formation": [ 
+    { "process": "web", "quantity": 0 },
+    { "process": "worker", "quantity": 1 }
+  ]
+}
